@@ -1,0 +1,15 @@
+{"time":"2025-08-22T00:06:42.346141331+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250822_000642-pbz9kvql/logs/debug-core.log"}
+{"time":"2025-08-22T00:06:42.636880179+09:00","level":"INFO","msg":"created new stream","id":"pbz9kvql"}
+{"time":"2025-08-22T00:06:42.636923708+09:00","level":"INFO","msg":"stream: started","id":"pbz9kvql"}
+{"time":"2025-08-22T00:06:42.637008065+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:06:42.637063113+09:00","level":"INFO","msg":"sender: started","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:06:42.637079393+09:00","level":"INFO","msg":"handler: started","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:06:42.967108967+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T00:14:35.048751303+09:00","level":"INFO","msg":"stream: closing","id":"pbz9kvql"}
+{"time":"2025-08-22T00:14:35.048782612+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T00:14:35.048811301+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T00:14:35.84402152+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T00:14:36.384698494+09:00","level":"INFO","msg":"handler: closed","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:14:36.384751893+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:14:36.384759722+09:00","level":"INFO","msg":"sender: closed","stream_id":"pbz9kvql"}
+{"time":"2025-08-22T00:14:36.38483549+09:00","level":"INFO","msg":"stream: closed","id":"pbz9kvql"}

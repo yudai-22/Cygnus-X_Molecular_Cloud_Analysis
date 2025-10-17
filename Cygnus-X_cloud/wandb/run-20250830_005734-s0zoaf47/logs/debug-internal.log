@@ -1,0 +1,18 @@
+{"time":"2025-08-30T00:57:34.847234497+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250830_005734-s0zoaf47/logs/debug-core.log"}
+{"time":"2025-08-30T00:57:35.138753917+09:00","level":"INFO","msg":"created new stream","id":"s0zoaf47"}
+{"time":"2025-08-30T00:57:35.138795116+09:00","level":"INFO","msg":"stream: started","id":"s0zoaf47"}
+{"time":"2025-08-30T00:57:35.138877503+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T00:57:35.138906112+09:00","level":"INFO","msg":"handler: started","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T00:57:35.138942531+09:00","level":"INFO","msg":"sender: started","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T00:57:35.391791759+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-30T04:16:35.550166905+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-30T05:37:44.253341693+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-30T05:37:44.253409261+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-30T05:37:44.848705233+09:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-08-30T05:37:45.257079953+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact training_log","runtime_seconds":1.006799202,"subtasks":[{"desc":"model_parameter.pth","runtime_seconds":0.062162428,"progress":"400.0KB/67.6MB"}]},{"desc":"updating run config","runtime_seconds":0.188869675}],"total_operations":2}}
+{"time":"2025-08-30T05:37:50.794752817+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-30T05:37:51.359370159+09:00","level":"INFO","msg":"stream: closing","id":"s0zoaf47"}
+{"time":"2025-08-30T05:37:51.359386779+09:00","level":"INFO","msg":"handler: closed","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T05:37:51.359396158+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T05:37:51.359402478+09:00","level":"INFO","msg":"sender: closed","stream_id":"s0zoaf47"}
+{"time":"2025-08-30T05:37:51.359472896+09:00","level":"INFO","msg":"stream: closed","id":"s0zoaf47"}

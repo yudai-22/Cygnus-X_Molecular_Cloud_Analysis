@@ -1,0 +1,27 @@
+  0%|                                                                                                                        | 0/1585 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "./train_main.py", line 134, in <module>
+    main(args)
+  File "./train_main.py", line 122, in main
+    train_model.train_model(**train_model_params)
+  File "/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_model.py", line 89, in train_model
+    output = model(images.clone().to(device))
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/models/model_layer9_BatchNorm_for_20.py", line 41, in forward
+    x = self.encoder(x)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (16x30976 and 84640x10)

@@ -1,0 +1,17 @@
+{"time":"2025-08-23T13:14:08.19761086+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250823_131408-51o9z67d/logs/debug-core.log"}
+{"time":"2025-08-23T13:14:08.524750744+09:00","level":"INFO","msg":"created new stream","id":"51o9z67d"}
+{"time":"2025-08-23T13:14:08.524784433+09:00","level":"INFO","msg":"stream: started","id":"51o9z67d"}
+{"time":"2025-08-23T13:14:08.524834161+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"51o9z67d"}
+{"time":"2025-08-23T13:14:08.52486591+09:00","level":"INFO","msg":"sender: started","stream_id":"51o9z67d"}
+{"time":"2025-08-23T13:14:08.524910889+09:00","level":"INFO","msg":"handler: started","stream_id":"51o9z67d"}
+{"time":"2025-08-23T13:14:08.870082813+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-23T18:16:28.865904734+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-23T18:16:28.865965561+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-23T18:16:29.266375875+09:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-08-23T18:16:29.868363835+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact training_log","runtime_seconds":1.005399916,"subtasks":[{"desc":"model_parameter.pth","runtime_seconds":0.021482859,"progress":"1.0MB/67.6MB"}]},{"desc":"uploading output.log","runtime_seconds":0.14751242,"progress":"21.7KB/21.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1474999,"progress":"55.6KB/55.6KB"}],"total_operations":3}}
+{"time":"2025-08-23T18:16:35.387967907+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-23T18:16:35.728770719+09:00","level":"INFO","msg":"stream: closing","id":"51o9z67d"}
+{"time":"2025-08-23T18:16:35.728789099+09:00","level":"INFO","msg":"handler: closed","stream_id":"51o9z67d"}
+{"time":"2025-08-23T18:16:35.728803038+09:00","level":"INFO","msg":"sender: closed","stream_id":"51o9z67d"}
+{"time":"2025-08-23T18:16:35.728797568+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"51o9z67d"}
+{"time":"2025-08-23T18:16:35.728856426+09:00","level":"INFO","msg":"stream: closed","id":"51o9z67d"}

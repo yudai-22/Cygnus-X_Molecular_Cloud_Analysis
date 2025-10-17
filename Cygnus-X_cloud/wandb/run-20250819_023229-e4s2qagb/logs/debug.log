@@ -1,0 +1,31 @@
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_setup.py:_flush():70] Configure stats pid to 2495
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_setup.py:_flush():70] Loading settings from /root/.config/wandb/settings
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_setup.py:_flush():70] Loading settings from /home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/settings
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250819_023229-e4s2qagb/logs/debug.log
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250819_023229-e4s2qagb/logs/debug-internal.log
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:init():852] calling init triggers
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:init():857] wandb.init called with sweep_config: {'latent_num': 50}
+config: {'learning_rate': 0.0001, 'weight_decay': 0.001, 'fits_random_state': 123, 'train_mini_batch': 16, 'val_mini_batch': 16, 'latent_num': 50, '_wandb': {}}
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:init():893] starting backend
+2025-08-19 02:32:29,234 INFO    MainThread:2495 [wandb_init.py:init():897] sending inform_init request
+2025-08-19 02:32:29,248 INFO    MainThread:2495 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-08-19 02:32:29,248 INFO    MainThread:2495 [wandb_init.py:init():907] backend started and connected
+2025-08-19 02:32:29,249 INFO    MainThread:2495 [wandb_run.py:_config_callback():1436] config_cb None None {'latent_num': 50}
+2025-08-19 02:32:29,250 INFO    MainThread:2495 [wandb_init.py:init():1005] updated telemetry
+2025-08-19 02:32:29,250 INFO    MainThread:2495 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-08-19 02:32:29,673 INFO    MainThread:2495 [wandb_init.py:init():1104] starting run threads in backend
+2025-08-19 02:32:29,799 INFO    MainThread:2495 [wandb_run.py:_console_start():2573] atexit reg
+2025-08-19 02:32:29,799 INFO    MainThread:2495 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-08-19 02:32:29,800 INFO    MainThread:2495 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-08-19 02:32:29,800 INFO    MainThread:2495 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-08-19 02:32:29,801 INFO    MainThread:2495 [wandb_init.py:init():1150] run started, returning control to user process
+2025-08-19 02:32:30,820 INFO    MainThread:2495 [wandb_watch.py:_watch():71] Watching
+2025-08-19 08:28:52,244 INFO    MainThread:2495 [wandb_run.py:_finish():2321] finishing run yudai22-/Select_enter_sweep/e4s2qagb
+2025-08-19 08:28:52,244 INFO    MainThread:2495 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-08-19 08:28:52,244 INFO    MainThread:2495 [wandb_run.py:_restore():2520] restore
+2025-08-19 08:28:52,245 INFO    MainThread:2495 [wandb_run.py:_restore():2526] restore done
+2025-08-19 08:29:00,607 INFO    MainThread:2495 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-08-19 08:29:00,610 INFO    MainThread:2495 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-08-19 08:29:00,610 INFO    MainThread:2495 [wandb_run.py:_footer_sync_info():4149] logging synced files

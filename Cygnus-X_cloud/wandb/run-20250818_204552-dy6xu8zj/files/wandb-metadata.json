@@ -1,0 +1,168 @@
+{
+    "os": "Linux-5.4.0-216-generic-x86_64-with-glibc2.29",
+    "python": "CPython 3.8.10",
+    "heartbeatAt": "2025-08-18T11:45:53.159081",
+    "startedAt": "2025-08-18T11:45:52.635290",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "/tmp/tmpabcb6ph_/port-347.txt",
+        "--pid",
+        "347"
+    ],
+    "state": "running",
+    "program": "./train_main.py",
+    "codePathLocal": "train_main.py",
+    "codePath": "train_main.py",
+    "host": "c700901ca661",
+    "username": null,
+    "executable": "/usr/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2484.8377916666673,
+        "min": 2200.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2202.326,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.065,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2213.951,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2202.36,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2212.461,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2529.178,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3231.419,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2520.634,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2515.509,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2618.063,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2949.523,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2553.567,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2205.56,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2199.991,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2222.052,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2203.515,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2213.564,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2474.856,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2880.774,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2981.453,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2560.243,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2746.034,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2542.213,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2456.796,
+            "min": 2200.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1967317549056,
+            "used": 1584716193792
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 135081787392
+    }
+}

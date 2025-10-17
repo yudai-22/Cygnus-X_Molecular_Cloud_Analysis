@@ -1,0 +1,10 @@
+100%|███████████████████████████████████████| 1585/1585 [07:29<00:00,  3.53it/s]
+100%|███████████████████████████████████████████| 75/75 [00:11<00:00,  6.37it/s]
+Traceback (most recent call last):
+  File "train_main.py", line 134, in <module>
+    main(args)
+  File "train_main.py", line 122, in main
+    train_model.train_model(**train_model_params)
+  File "/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_model.py", line 109, in train_model
+    if val_loss_num < best_val_loss:
+UnboundLocalError: local variable 'best_val_loss' referenced before assignment

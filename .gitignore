@@ -1,0 +1,5 @@
+*.fits
+/*.ipynb_checkpoints
+data/zroing_resize_data
+artifacts/
+__pycache__

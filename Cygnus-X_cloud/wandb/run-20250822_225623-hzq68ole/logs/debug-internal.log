@@ -1,0 +1,17 @@
+{"time":"2025-08-22T22:56:23.132397706+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250822_225623-hzq68ole/logs/debug-core.log"}
+{"time":"2025-08-22T22:56:23.435572672+09:00","level":"INFO","msg":"created new stream","id":"hzq68ole"}
+{"time":"2025-08-22T22:56:23.435609281+09:00","level":"INFO","msg":"stream: started","id":"hzq68ole"}
+{"time":"2025-08-22T22:56:23.43563614+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"hzq68ole"}
+{"time":"2025-08-22T22:56:23.43564375+09:00","level":"INFO","msg":"handler: started","stream_id":"hzq68ole"}
+{"time":"2025-08-22T22:56:23.435677309+09:00","level":"INFO","msg":"sender: started","stream_id":"hzq68ole"}
+{"time":"2025-08-22T22:56:23.784134512+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-23T02:20:08.999497683+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-23T02:20:08.999573171+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-23T02:20:09.593878608+09:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-08-23T02:20:10.002367015+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact training_log","runtime_seconds":0.788531687}],"total_operations":1}}
+{"time":"2025-08-23T02:20:15.776923168+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-23T02:20:16.166398516+09:00","level":"INFO","msg":"stream: closing","id":"hzq68ole"}
+{"time":"2025-08-23T02:20:16.166414875+09:00","level":"INFO","msg":"handler: closed","stream_id":"hzq68ole"}
+{"time":"2025-08-23T02:20:16.166429395+09:00","level":"INFO","msg":"sender: closed","stream_id":"hzq68ole"}
+{"time":"2025-08-23T02:20:16.166423425+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hzq68ole"}
+{"time":"2025-08-23T02:20:16.166478113+09:00","level":"INFO","msg":"stream: closed","id":"hzq68ole"}

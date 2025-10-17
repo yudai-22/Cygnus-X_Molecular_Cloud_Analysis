@@ -1,0 +1,15 @@
+{"time":"2025-08-30T00:56:51.033826721+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/filament/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/wandb/run-20250830_005651-b1g17v9v/logs/debug-core.log"}
+{"time":"2025-08-30T00:56:51.344569993+09:00","level":"INFO","msg":"created new stream","id":"b1g17v9v"}
+{"time":"2025-08-30T00:56:51.344612702+09:00","level":"INFO","msg":"stream: started","id":"b1g17v9v"}
+{"time":"2025-08-30T00:56:51.34468209+09:00","level":"INFO","msg":"handler: started","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:56:51.34466455+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:56:51.344734088+09:00","level":"INFO","msg":"sender: started","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:56:51.683990767+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-30T00:57:09.968492885+09:00","level":"INFO","msg":"stream: closing","id":"b1g17v9v"}
+{"time":"2025-08-30T00:57:09.968536334+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-30T00:57:09.968586972+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-30T00:57:10.757724119+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-30T00:57:10.981383503+09:00","level":"INFO","msg":"handler: closed","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:57:10.981439621+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:57:10.981447591+09:00","level":"INFO","msg":"sender: closed","stream_id":"b1g17v9v"}
+{"time":"2025-08-30T00:57:10.981518039+09:00","level":"INFO","msg":"stream: closed","id":"b1g17v9v"}
