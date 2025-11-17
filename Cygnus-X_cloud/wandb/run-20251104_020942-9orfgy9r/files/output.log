@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 134, in <module>
+    main(args)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 122, in main
+    train_model.train_model(**train_model_params)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_model.py", line 40, in train_model
+    early_stopping = EarlyStopping(patience=15, verbose=True, path=args.savedir_path + "/model_parameter.pth")
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/training_sub.py", line 29, in __init__
+    self.val_loss_min = np.Inf
+  File "/usr/local/lib/python3.10/dist-packages/numpy/__init__.py", line 400, in __getattr__
+    raise AttributeError(
+AttributeError: `np.Inf` was removed in the NumPy 2.0 release. Use `np.inf` instead.

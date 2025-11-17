@@ -1,0 +1,9 @@
+ 27%|██████████▋                             | 317/1189 [02:08<05:54,  2.46it/s]
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 134, in <module>
+    main(args)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 122, in main
+    train_model.train_model(**train_model_params)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_model.py", line 93, in train_model
+    loss = criterion(output.to("cpu"), images)
+KeyboardInterrupt

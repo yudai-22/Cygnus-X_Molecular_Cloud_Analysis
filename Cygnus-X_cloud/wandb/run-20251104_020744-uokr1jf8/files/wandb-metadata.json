@@ -1,0 +1,17 @@
+{
+  "os": "Linux-6.8.0-86-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-11-04T02:07:44.760113Z",
+  "args": [
+    "--wandb_name",
+    "only_128pix"
+  ],
+  "program": "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py",
+  "codePath": "train_main.py",
+  "codePathLocal": "train_main.py",
+  "email": "progaress21@gmail.com",
+  "root": "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud",
+  "host": "88015c1e07b6",
+  "executable": "/usr/bin/python",
+  "writerId": "4u4zya0w3fhtu2dhgqeta7fobbyczqdc"
+}

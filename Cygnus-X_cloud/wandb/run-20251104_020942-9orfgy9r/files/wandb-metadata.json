@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.8.0-86-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-11-04T02:09:42.945702Z",
+  "args": [
+    "--wandb_name",
+    "only_128pix"
+  ],
+  "program": "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py",
+  "codePath": "train_main.py",
+  "codePathLocal": "train_main.py",
+  "email": "progaress21@gmail.com",
+  "root": "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud",
+  "host": "88015c1e07b6",
+  "executable": "/usr/bin/python",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1967315451904",
+      "used": "477458681856"
+    }
+  },
+  "memory": {
+    "total": "134681849856"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5080",
+      "memoryTotal": "17094934528",
+      "cudaCores": 10752,
+      "architecture": "Blackwell",
+      "uuid": "GPU-a182a10c-31f9-c38b-ed1f-3f9ffcb84a0a"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "d5fdwpwe9nwrgue7r91j8t98sro5o6dn"
+}

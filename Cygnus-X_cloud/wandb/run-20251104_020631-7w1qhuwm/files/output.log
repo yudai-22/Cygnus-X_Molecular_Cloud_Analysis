@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 56, in load_model
+    model_module = importlib.import_module(model_file)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'model_layer9_BatchNorm_no_center'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 134, in <module>
+    main(args)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 100, in main
+    Conv3dAutoencoder = load_model(args.model_file)
+  File "/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/train_main.py", line 59, in load_model
+    raise ImportError(f"Failed to import module {model_file}. Make sure the file exists and is in the Python path.") from e
+ImportError: Failed to import module model_layer9_BatchNorm_no_center. Make sure the file exists and is in the Python path.

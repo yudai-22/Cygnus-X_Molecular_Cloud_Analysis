@@ -1,0 +1,13 @@
+{"time":"2025-11-04T02:47:58.435389994Z","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-11-04T02:47:58.709023729Z","level":"INFO","msg":"stream: created new stream","id":"n24os324"}
+{"time":"2025-11-04T02:47:58.709070557Z","level":"INFO","msg":"handler: started","stream_id":"n24os324"}
+{"time":"2025-11-04T02:47:58.709096666Z","level":"INFO","msg":"stream: started","id":"n24os324"}
+{"time":"2025-11-04T02:47:58.709110192Z","level":"INFO","msg":"sender: started","stream_id":"n24os324"}
+{"time":"2025-11-04T02:47:58.709118698Z","level":"INFO","msg":"writer: started","stream_id":"n24os324"}
+{"time":"2025-11-04T03:45:37.189832742Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact training_log","runtime_seconds":0.370156991}],"total_operations":1}}
+{"time":"2025-11-04T03:45:37.505872314Z","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-11-04T03:45:42.735181644Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-04T03:45:43.160987379Z","level":"INFO","msg":"stream: closing","id":"n24os324"}
+{"time":"2025-11-04T03:45:43.160995645Z","level":"INFO","msg":"handler: closed","stream_id":"n24os324"}
+{"time":"2025-11-04T03:45:43.161027905Z","level":"INFO","msg":"sender: closed","stream_id":"n24os324"}
+{"time":"2025-11-04T03:45:43.161032293Z","level":"INFO","msg":"stream: closed","id":"n24os324"}
