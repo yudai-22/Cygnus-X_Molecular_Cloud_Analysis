@@ -14,13 +14,13 @@ Ech_II = 241
 Percentile = 99.997
 Sigma_Multiply = None
 
-Cut_size_list = [256, 128, 64]
+Cut_size_list = [128]
 Integrate_layer_num = 30
 Obj_size = 100
-Maximum_mode = "normal"
-FITS_PATH = "/home/filament/fujimoto/Cygnus-X_CAE/fits/Cygnus_sp16_vs-40_ve040_dv0.25_12CO_Tmb.fits"
-OUTPUT_DIR = "/home/filament/fujimoto/Cygnus-X_CAE/data/zroing_resize_data/resize_data/truncation_3size/normalize/"
-OUTPUT_FILE_NAME = "CygnusX_per_norm"
+Maximum_mode = "percentile"
+FITS_PATH = "/home/cygnus/fujimoto/Cygnus-X_CAE/fits/Cygnus_sp16_vs-40_ve040_dv0.25_12CO_Tmb.fits"
+OUTPUT_DIR = "/home/cygnus/fujimoto/Cygnus-X_CAE/data/zroing_resize_data/resize_data/condition_match/one_size"
+OUTPUT_FILE_NAME = "CygnusX_cut_one_size"
 
 def process_fits_data(fits_path, output_file_name, cut_size_list, sch_ii, ech_ii, vsmooth, thresh, sigma, sch_rms, ech_rms, integrate_layer_num, percentile, output_dir, obj_size, maximum_mode, sigma_multiply):
     # Load FITS file
