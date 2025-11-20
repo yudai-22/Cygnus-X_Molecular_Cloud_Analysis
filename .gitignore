@@ -2,6 +2,6 @@
 *.ipynb_checkpoints
 data/zroing_resize_data
 data/Binary_data/processed_data
-Cygnus-X_cloud/Binary_classification/data
+**/pets
 artifacts/
 __pycache__
