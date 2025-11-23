@@ -3,5 +3,6 @@
 data/zroing_resize_data
 **/processed_data
 **/pets
+**/save_dir
 artifacts/
 __pycache__
