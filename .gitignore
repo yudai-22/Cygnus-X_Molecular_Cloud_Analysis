@@ -1,6 +1,6 @@
 *.fits
 *.ipynb_checkpoints
-data/zroing_resize_data
+**/data/zroing_resize_data
 **/processed_data
 **/pets
 **/save_dir
