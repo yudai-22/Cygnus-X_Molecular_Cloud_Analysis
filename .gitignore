@@ -1,7 +1,7 @@
 *.fits
 *.ipynb_checkpoints
 data/zroing_resize_data
-data/Binary_data/processed_data
+**/processed_data
 **/pets
 artifacts/
 __pycache__
