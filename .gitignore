@@ -4,5 +4,6 @@
 **/processed_data
 **/pets
 **/save_dir
+**/latent_list
 artifacts/
 __pycache__
