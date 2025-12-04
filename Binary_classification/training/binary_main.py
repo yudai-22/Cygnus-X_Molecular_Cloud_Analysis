@@ -17,7 +17,7 @@ import train_model
 # from model_04 import Conv3dAutoencoder
 from training_sub import weights_init
 
-sys.path.append("/home/cygnus/fujimoto/Cygnus-X_CAE/Cygnus-X_cloud/models/CAE")
+sys.path.append("/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/models")
 
 
 def parse_args():
@@ -47,7 +47,7 @@ def parse_args():
     #parser.add_argument("--wandb_name", type=str, default="demo1")
     parser.add_argument("--wandb_name", type=str)
     # モデルの選択
-    parser.add_argument("--model_file", type=str, default="model_layer9_BatchNorm_no_center", help="Name of the model file to import (without .py)")
+    parser.add_argument("--model_file", type=str, default="Binary_classification", help="Name of the model file to import (without .py)")
     return parser.parse_args()
 
 
