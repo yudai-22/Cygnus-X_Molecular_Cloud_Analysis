@@ -193,9 +193,9 @@ def select_conv(data, obj_size, obj_sig):
     return pi    
 
 
-def slide(data, square_size):
+def slide(data, square_size, slide_separate):
     _, height, width = data.shape
-    step = square_size // 4  # 正方形の4分の1のサイズ
+    step = square_size // slide_separate  # 正方形の4分の1のサイズ
     
     crops = []
     for y in range(0, height - square_size + 1, step):
