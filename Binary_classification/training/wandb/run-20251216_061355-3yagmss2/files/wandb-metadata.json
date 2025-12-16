@@ -1,0 +1,17 @@
+{
+  "os": "Linux-6.8.0-86-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-12-16T06:13:55.838846Z",
+  "args": [
+    "--wandb_name",
+    "hori-verti_augment"
+  ],
+  "program": "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py",
+  "codePath": "binary_main.py",
+  "codePathLocal": "binary_main.py",
+  "email": "progaress21@gmail.com",
+  "root": "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training",
+  "host": "d1006eee6566",
+  "executable": "/usr/bin/python",
+  "writerId": "f6yc397tg1b5qjbsish7pg77ypa1jo07"
+}

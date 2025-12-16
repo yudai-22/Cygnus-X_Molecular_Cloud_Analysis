@@ -24,13 +24,13 @@ def parse_args():
     parser = argparse.ArgumentParser(description="PyTorch Implementation of CAE")
     # 学習データの読み込みとモデルの書き込み
     parser.add_argument("--training_path", metavar="DIR", help="training_path", 
-                        default="../data/processed_data/split_data/training_data/concatenate_data/training_data_concatenate.npy")
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/training_data/concatenate_data/training_data_concatenate.npy")
     parser.add_argument("--validation_path", metavar="DIR", help="validation_path", 
-                        default="../data/processed_data/split_data/validation_data/concatenate_data/validation_data_concatenate.npy")
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/validation_data/concatenate_data/validation_data_concatenate.npy")
     parser.add_argument("--training_labels_path", metavar="DIR", help="training_labels_path", 
-                        default="../data/processed_data/split_data/training_data/concatenate_data/training_labels_concatenate.npy")
-    parser.add_argument("--validation_labes_path", metavar="DIR", help="validation_labels_path", 
-                        default="../data/processed_data/split_data/validation_data/concatenate_data/validation_labels_concatenate.npy")
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/training_data/concatenate_data/training_labels_concatenate.npy")
+    parser.add_argument("--validation_labels_path", metavar="DIR", help="validation_labels_path", 
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/validation_data/concatenate_data/validation_labels_concatenate.npy")
     parser.add_argument("--savedir_path", metavar="DIR", help="savedir path", 
                         default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/save_dir")
     
@@ -132,7 +132,7 @@ def main(args):
         "augment_velocity_axis": args.augment_velocity_axis
     }
 
-    train_model.train_model(**train_model_params)
+    binary_train_model.train_model(**train_model_params)
 
     artifact = wandb.Artifact("training_log", type="dir")
     artifact.add_dir(args.savedir_path)

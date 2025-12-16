@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            r78fddr28e7530ea6su5ohuupr1aqr2m:
+                args:
+                    - --wandb_name
+                    - hori-verti_augment
+                codePath: binary_main.py
+                codePathLocal: binary_main.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1967315451904"
+                        used: "561776230400"
+                email: progaress21@gmail.com
+                executable: /usr/bin/python
+                gpu: NVIDIA GeForce RTX 5080
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 10752
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5080
+                      uuid: GPU-a182a10c-31f9-c38b-ed1f-3f9ffcb84a0a
+                host: d1006eee6566
+                memory:
+                    total: "134681841664"
+                os: Linux-6.8.0-86-generic-x86_64-with-glibc2.35
+                program: /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py
+                python: CPython 3.10.12
+                root: /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training
+                startedAt: "2025-12-16T06:18:12.594512Z"
+                writerId: r78fddr28e7530ea6su5ohuupr1aqr2m
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+fits_random_state:
+    value: 123
+latent_num:
+    value: 100
+learning_rate:
+    value: 0.0001
+train_mini_batch:
+    value: 16
+val_mini_batch:
+    value: 16
+weight_decay:
+    value: 0.001
