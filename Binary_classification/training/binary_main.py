@@ -121,7 +121,7 @@ def main(args):
 
     train_model_params = {
         "model": model,
-        "criterion": nn.MSELoss(),
+        "criterion": nn.BCELoss(),
         "optimizer": optimizer,
         "num_epochs": args.num_epoch,
         "args": args,
