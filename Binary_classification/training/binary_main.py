@@ -13,9 +13,9 @@ import torch.optim as optim
 import wandb
 from PIL import ImageFile
 
-import train_model
+import binary_train_model
 # from model_04 import Conv3dAutoencoder
-from training_sub import weights_init
+from binary_train_sub import weights_init
 
 sys.path.append("/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/models")
 
@@ -55,7 +55,7 @@ def parse_args():
     parser.add_argument("--augment_velocity_axis", type=bool, default=False)
     
     # option
-    parser.add_argument("--wandb_project", type=str, default="Binary_classification_matching")
+    parser.add_argument("--wandb_project", type=str, default="Binary_classification_augment")
     #parser.add_argument("--wandb_name", type=str, default="demo1")
     parser.add_argument("--wandb_name", type=str)
     

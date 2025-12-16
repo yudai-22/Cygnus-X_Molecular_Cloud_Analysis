@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 import wandb
 
-from training_sub import DataSet, EarlyStopping
+from binary_train_sub import DataSet, EarlyStopping
 
 
 def augment_data(train_data, augment_horizontal=False, augment_vertical=False, augment_velocity_axis=False):
@@ -93,7 +93,7 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
                 with torch.set_grad_enabled(phase == "train"):
 
                     # モデルの出力を計算する
-                    output = model(images.clone().to(device))
+                    output, latent = model(images.clone().to(device))
 
                     # 損失を計算する
                     loss = criterion(output.to("cpu"), images)
