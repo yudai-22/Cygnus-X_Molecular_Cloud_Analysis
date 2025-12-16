@@ -1,7 +1,9 @@
 import torch.nn as nn
 
 class Binary_classification(nn.Module):
-    def __init__(self, latent, input_depth, input_height, input_width):
+    def __init__(self, latent, 
+                 # input_depth, input_height, input_width
+                ):
         super(Binary_classification, self).__init__()
         
         self.features = nn.Sequential(

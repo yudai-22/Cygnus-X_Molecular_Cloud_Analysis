@@ -22,30 +22,43 @@ sys.path.append("/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_
 
 def parse_args():
     parser = argparse.ArgumentParser(description="PyTorch Implementation of CAE")
-    parser.add_argument(
-        "--training_validation_path", metavar="DIR", help="training_validation_path", default="/home/cygnus/fujimoto/Cygnus-X_CAE/data/zroing_resize_data/resize_data/condition_match/one_size/CygnusX_cut_one_size_mode_percentile_100x100.npy"
-    )
-    parser.add_argument("--savedir_path", metavar="DIR", default="/home/cygnus/fujimoto/Cygnus-X_CAE/save_dir", help="savedire path")
+    # 学習データの読み込みとモデルの書き込み
+    parser.add_argument("--training_path", metavar="DIR", help="training_path", 
+                        default="../data/processed_data/split_data/training_data/concatenate_data/training_data_concatenate.npy")
+    parser.add_argument("--validation_path", metavar="DIR", help="validation_path", 
+                        default="../data/processed_data/split_data/validation_data/concatenate_data/validation_data_concatenate.npy")
+    parser.add_argument("--training_labels_path", metavar="DIR", help="training_labels_path", 
+                        default="../data/processed_data/split_data/training_data/concatenate_data/training_labels_concatenate.npy")
+    parser.add_argument("--validation_labes_path", metavar="DIR", help="validation_labels_path", 
+                        default="../data/processed_data/split_data/validation_data/concatenate_data/validation_labels_concatenate.npy")
+    parser.add_argument("--savedir_path", metavar="DIR", help="savedir path", 
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/save_dir")
+    
     # minibatch
     parser.add_argument("--num_epoch", type=int, default=1000, help="number of total epochs to run (default: 1000)")
     parser.add_argument("--train_mini_batch", default=16, type=int, help="mini-batch size (default: 32)")
     parser.add_argument("--val_mini_batch", default=16, type=int, help="Validation mini-batch size (default: 128)")
+    
     # random seed
     parser.add_argument("--random_state", "-r", type=int, default=123)
+    
     # 学習率
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--weight_decay", type=float, default=0.001)
+    
     # 潜在変数
     parser.add_argument("--latent_num", type=int, default=100)
+    
     # Augmentation
-    # parser.add_argument("--augment", type=bool, default=True)
     parser.add_argument("--augment_horizontal", type=bool, default=True)
     parser.add_argument("--augment_vertical", type=bool, default=True)
     parser.add_argument("--augment_velocity_axis", type=bool, default=False)
+    
     # option
-    parser.add_argument("--wandb_project", type=str, default="condition_matching")
+    parser.add_argument("--wandb_project", type=str, default="Binary_classification_matching")
     #parser.add_argument("--wandb_name", type=str, default="demo1")
     parser.add_argument("--wandb_name", type=str)
+    
     # モデルの選択
     parser.add_argument("--model_file", type=str, default="Binary_classification", help="Name of the model file to import (without .py)")
     return parser.parse_args()
@@ -54,7 +67,7 @@ def parse_args():
 def load_model(model_file):
     try:
         model_module = importlib.import_module(model_file)
-        return model_module.Conv3dAutoencoder
+        return model_module.Binary_classification
     except ImportError as e:
         raise ImportError(f"Failed to import module {model_file}. Make sure the file exists and is in the Python path.") from e
 
@@ -97,8 +110,8 @@ def main(args):
     )
 
 
-    Conv3dAutoencoder = load_model(args.model_file)
-    model = Conv3dAutoencoder(latent=args.latent_num)
+    Binary_classification = load_model(args.model_file)
+    model = Binary_classification(latent=args.latent_num)
     model.apply(weights_init)
     model.to(device)
     wandb.watch(model, log_freq=100)
