@@ -1,0 +1,10 @@
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 753/753 [00:05<00:00, 147.65it/s]
+  0%|                                                                                                                                               | 0/3 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py", line 146, in <module>
+    main(args)
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py", line 134, in main
+    binary_train_model.train_model(**train_model_params)
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_train_model.py", line 106, in train_model
+    val_correct_preds += (predicted == labels).sum().item()
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

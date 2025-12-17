@@ -58,7 +58,6 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
     val_dataloader   = DataLoader(val_dataset, batch_size=args.val_mini_batch, shuffle=False)
     dataloader_dic   = {"train": train_dataloader, "val": val_dataloader}
 
-
     train_dataset = DataSet(train_data, train_labels)
     train_dataloader = DataLoader(train_dataset, batch_size=args.train_mini_batch, shuffle=True)
     val_dataset = DataSet(val_data, val_labels)
@@ -89,6 +88,7 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
 
             for images, labels in tqdm.tqdm(dataloader):
                 images = images.view(-1, 1, 30, 100, 100)  # バッチサイズを維持したままチャンネル数を1に設定
+                labels = labels.to(device).float().unsqueeze(1)
                 optimizer.zero_grad()
                 with torch.set_grad_enabled(phase == "train"):
 
@@ -96,7 +96,7 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
                     output, latent = model(images.clone().to(device))
 
                     # 損失を計算する
-                    loss = criterion(output.to("cpu"), images)
+                    loss = criterion(output, labels)
                     weighted_loss = torch.mean(loss)
 
                     if phase == "val":
@@ -136,14 +136,13 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
             # else:
             #     val_loss_list.append(val_loss_num)
                 
-        wandb.log({"train loss": train_loss_num, "validation loss": val_loss_num, "epoch":  epoch})
-        wandb.log({"validation accuracy": val_accuracy, "validation recall": val_recall, "validation precision": val_precision, "epoch": epoch})
+        wandb.log({"train loss": train_loss_num, "validation loss": val_loss_num, "validation accuracy": val_accuracy, "validation recall": val_recall, "validation precision": val_precision})
         
         if val_loss_num < best_val_loss:
             best_val_loss = val_loss_num
-            wandb.log({"best validation loss": best_val_loss, "epoch":  epoch})
+            wandb.log({"best validation loss": best_val_loss})
         
-        print("Epoch [{}/{}], Loss: {:.4f}, Accuracy: {:.4f}, Recall: {:.4}, Precison: {:.4}".format(epoch + 1, num_epochs, val_loss_num, val_accuracy, val_recall, val_precision))
+        print("Epoch [{}/{}], Loss: {:.4f}, Accuracy: {:.4f}, Recall: {:.4}, Precision: {:.4}".format(epoch + 1, num_epochs, val_loss_num, val_accuracy, val_recall, val_precision))
 
         early_stopping(val_loss_num, model)
         if early_stopping.early_stop:
