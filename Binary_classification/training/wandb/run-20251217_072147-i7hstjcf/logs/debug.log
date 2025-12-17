@@ -1,0 +1,24 @@
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_setup.py:_flush():80] Configure stats pid to 3793
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_setup.py:_flush():80] Loading settings from /root/.config/wandb/settings
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_setup.py:_flush():80] Loading settings from /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/wandb/settings
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/wandb/run-20251217_072147-i7hstjcf/logs/debug.log
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/wandb/run-20251217_072147-i7hstjcf/logs/debug-internal.log
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_init.py:init():840] calling init triggers
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'weight_decay': 0.001, 'fits_random_state': 123, 'train_mini_batch': 16, 'val_mini_batch': 16, 'latent_num': 100, '_wandb': {}}
+2025-12-17 07:21:47,391 INFO    MainThread:3793 [wandb_init.py:init():888] starting backend
+2025-12-17 07:21:47,601 INFO    MainThread:3793 [wandb_init.py:init():891] sending inform_init request
+2025-12-17 07:21:47,604 INFO    MainThread:3793 [wandb_init.py:init():899] backend started and connected
+2025-12-17 07:21:47,612 INFO    MainThread:3793 [wandb_init.py:init():969] updated telemetry
+2025-12-17 07:21:47,612 INFO    MainThread:3793 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout
+2025-12-17 07:21:48,195 INFO    MainThread:3793 [wandb_init.py:init():1040] starting run threads in backend
+2025-12-17 07:21:48,245 INFO    MainThread:3793 [wandb_run.py:_console_start():2504] atexit reg
+2025-12-17 07:21:48,245 INFO    MainThread:3793 [wandb_run.py:_redirect():2352] redirect: wrap_raw
+2025-12-17 07:21:48,245 INFO    MainThread:3793 [wandb_run.py:_redirect():2421] Wrapping output streams.
+2025-12-17 07:21:48,245 INFO    MainThread:3793 [wandb_run.py:_redirect():2444] Redirects installed.
+2025-12-17 07:21:48,246 INFO    MainThread:3793 [wandb_init.py:init():1080] run started, returning control to user process
+2025-12-17 07:21:48,351 INFO    MainThread:3793 [wandb_watch.py:_watch():68] Watching
+2025-12-17 07:21:51,784 INFO    wandb-AsyncioManager-main:3793 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-17 07:21:51,784 INFO    wandb-AsyncioManager-main:3793 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

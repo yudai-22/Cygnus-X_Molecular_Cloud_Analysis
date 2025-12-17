@@ -1,0 +1,11 @@
+{"time":"2025-12-17T05:32:41.313047095Z","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-12-17T05:32:41.589694827Z","level":"INFO","msg":"stream: created new stream","id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:41.58976043Z","level":"INFO","msg":"handler: started","stream_id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:41.589898819Z","level":"INFO","msg":"stream: started","id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:41.589925809Z","level":"INFO","msg":"writer: started","stream_id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:41.589959663Z","level":"INFO","msg":"sender: started","stream_id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:44.039448124Z","level":"INFO","msg":"stream: closing","id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:44.872617989Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-17T05:32:45.11375367Z","level":"INFO","msg":"handler: closed","stream_id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:45.11382293Z","level":"INFO","msg":"sender: closed","stream_id":"u2p2ljio"}
+{"time":"2025-12-17T05:32:45.11382835Z","level":"INFO","msg":"stream: closed","id":"u2p2ljio"}

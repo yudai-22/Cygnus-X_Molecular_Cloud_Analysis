@@ -57,7 +57,7 @@ class Binary_classification_Dropout(nn.Module):
     def __init__(self, latent, 
                  # input_depth, input_height, input_width
                 ):
-        super(Binary_classification, self).__init__()
+        super(Binary_classification_Dropout, self).__init__()
         
         self.features = nn.Sequential(
             nn.Conv3d(1, 16, kernel_size=4, stride=2, padding=1),
@@ -85,7 +85,8 @@ class Binary_classification_Dropout(nn.Module):
             nn.Linear(FINAL_FLATTEN_SIZE, latent),
             nn.ReLU(True), 
             nn.Linear(latent, 1),
-            nn.Sigmoid()
+            nn.Sigmoid(),
+            nn.Dropout(0.5)
         )
 
     # def forward(self, x):

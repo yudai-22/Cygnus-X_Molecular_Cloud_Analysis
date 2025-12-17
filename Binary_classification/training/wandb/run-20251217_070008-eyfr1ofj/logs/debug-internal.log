@@ -1,0 +1,25 @@
+{"time":"2025-12-17T07:00:09.141061008Z","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-12-17T07:00:09.415979826Z","level":"INFO","msg":"stream: created new stream","id":"eyfr1ofj"}
+{"time":"2025-12-17T07:00:09.416031001Z","level":"INFO","msg":"handler: started","stream_id":"eyfr1ofj"}
+{"time":"2025-12-17T07:00:09.416158681Z","level":"INFO","msg":"stream: started","id":"eyfr1ofj"}
+{"time":"2025-12-17T07:00:09.41618515Z","level":"INFO","msg":"sender: started","stream_id":"eyfr1ofj"}
+{"time":"2025-12-17T07:00:09.416192494Z","level":"INFO","msg":"writer: started","stream_id":"eyfr1ofj"}
+{"time":"2025-12-17T07:00:24.849734989Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":5866}
+{"time":"2025-12-17T07:00:24.980868251Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":61}
+{"time":"2025-12-17T07:00:25.71993451Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":6270}
+{"time":"2025-12-17T07:00:31.722167183Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":2868}
+{"time":"2025-12-17T07:00:39.856885259Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":12998}
+{"time":"2025-12-17T07:00:40.049161566Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":94}
+{"time":"2025-12-17T07:00:41.023021831Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":13545}
+{"time":"2025-12-17T07:00:50.21426109Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":4348}
+{"time":"2025-12-17T07:00:54.856986995Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":20083}
+{"time":"2025-12-17T07:00:55.043275718Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":90}
+{"time":"2025-12-17T07:00:56.43278375Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":20822}
+{"time":"2025-12-17T07:01:04.964954542Z","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-12-17T07:01:04.965149877Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":1022}
+{"time":"2025-12-17T07:01:07.726257369Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-17T07:01:09.3025012Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-17T07:01:09.304456001Z","level":"INFO","msg":"stream: closing","id":"eyfr1ofj"}
+{"time":"2025-12-17T07:01:09.304463365Z","level":"INFO","msg":"handler: closed","stream_id":"eyfr1ofj"}
+{"time":"2025-12-17T07:01:09.304484545Z","level":"INFO","msg":"sender: closed","stream_id":"eyfr1ofj"}
+{"time":"2025-12-17T07:01:09.304488392Z","level":"INFO","msg":"stream: closed","id":"eyfr1ofj"}

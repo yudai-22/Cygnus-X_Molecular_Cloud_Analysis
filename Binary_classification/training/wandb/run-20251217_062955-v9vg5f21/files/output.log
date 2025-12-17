@@ -1,0 +1,9 @@
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 251/251 [00:02<00:00, 87.03it/s]
+Traceback (most recent call last):
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py", line 146, in <module>
+    main(args)
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py", line 134, in main
+    binary_train_model.train_model(**train_model_params)
+  File "/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_train_model.py", line 151, in train_model
+    train_accuracy = traitrain_correct_preds / train_total_samples if train_total_samples > 0 else 0.0
+NameError: name 'traitrain_correct_preds' is not defined

@@ -26,11 +26,11 @@ def parse_args():
     parser.add_argument("--training_path", metavar="DIR", help="training_path", 
                         default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/training_data/concatenate_data/training_data_concatenate.npy")
     parser.add_argument("--validation_path", metavar="DIR", help="validation_path", 
-                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/test_val_concatenate/test_val_data_concatenate.npy")
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/validation_data/concatenate_data/validation_data_concatenate.npy")
     parser.add_argument("--training_labels_path", metavar="DIR", help="training_labels_path", 
                         default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/training_data/concatenate_data/training_labels_concatenate.npy")
     parser.add_argument("--validation_labels_path", metavar="DIR", help="validation_labels_path", 
-                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/test_val_concatenate/test_val_labels_concatenate.npy")
+                        default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/data/processed_data/split_area/validation_data/concatenate_data/validation_labels_concatenate.npy")
     parser.add_argument("--savedir_path", metavar="DIR", help="savedir path", 
                         default="/home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/save_dir")
     
@@ -52,7 +52,7 @@ def parse_args():
     # Augmentation
     parser.add_argument("--augment_horizontal", type=bool, default=True)
     parser.add_argument("--augment_vertical", type=bool, default=True)
-    parser.add_argument("--augment_velocity_axis", type=bool, default=True)
+    parser.add_argument("--augment_velocity_axis", type=bool, default=False)
     
     # option
     parser.add_argument("--wandb_project", type=str, default="Binary_classification_augment")
@@ -120,7 +120,7 @@ def main(args):
 
     train_model_params = {
         "model": model,
-        "criterion": nn.BCELoss(),
+        "criterion": nn.BCELoss(),# バブルを間違えたときの罰則を19倍にする
         "optimizer": optimizer,
         "num_epochs": args.num_epoch,
         "args": args,

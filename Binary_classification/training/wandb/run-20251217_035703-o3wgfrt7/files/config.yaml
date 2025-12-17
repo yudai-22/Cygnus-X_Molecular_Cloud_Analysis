@@ -1,0 +1,70 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            igtg1ssdsb1nbygni8rwaej1qe8t4uj9:
+                args:
+                    - --wandb_name
+                    - velo_Augment
+                codePath: binary_main.py
+                codePathLocal: binary_main.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1967315451904"
+                        used: "559763644416"
+                email: progaress21@gmail.com
+                executable: /usr/bin/python
+                gpu: NVIDIA GeForce RTX 5080
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 10752
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5080
+                      uuid: GPU-a182a10c-31f9-c38b-ed1f-3f9ffcb84a0a
+                host: 316d50b9144a
+                memory:
+                    total: "134681841664"
+                os: Linux-6.8.0-86-generic-x86_64-with-glibc2.35
+                program: /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training/binary_main.py
+                python: CPython 3.10.12
+                root: /home/cygnus/fujimoto/Cygnus-X_Molecular_Cloud_Analysis/Binary_classification/training
+                startedAt: "2025-12-17T03:57:03.190590Z"
+                writerId: igtg1ssdsb1nbygni8rwaej1qe8t4uj9
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+fits_random_state:
+    value: 123
+latent_num:
+    value: 100
+learning_rate:
+    value: 0.0001
+train_mini_batch:
+    value: 16
+val_mini_batch:
+    value: 16
+weight_decay:
+    value: 0.001

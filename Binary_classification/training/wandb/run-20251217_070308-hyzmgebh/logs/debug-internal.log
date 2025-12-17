@@ -1,0 +1,15 @@
+{"time":"2025-12-17T07:03:08.79226857Z","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-12-17T07:03:09.059516494Z","level":"INFO","msg":"stream: created new stream","id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:09.059568401Z","level":"INFO","msg":"handler: started","stream_id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:09.059700489Z","level":"INFO","msg":"stream: started","id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:09.059715847Z","level":"INFO","msg":"writer: started","stream_id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:09.059734713Z","level":"INFO","msg":"sender: started","stream_id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:24.515800716Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":5948}
+{"time":"2025-12-17T07:03:24.660199419Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":73}
+{"time":"2025-12-17T07:03:27.271704666Z","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":7309}
+{"time":"2025-12-17T07:03:29.115353081Z","level":"INFO","msg":"stream: closing","id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:31.752624796Z","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":913}
+{"time":"2025-12-17T07:03:33.01553924Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-17T07:03:34.756110684Z","level":"INFO","msg":"handler: closed","stream_id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:34.7561731Z","level":"INFO","msg":"sender: closed","stream_id":"hyzmgebh"}
+{"time":"2025-12-17T07:03:34.756181085Z","level":"INFO","msg":"stream: closed","id":"hyzmgebh"}

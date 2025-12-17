@@ -20,3 +20,8 @@ config: {'learning_rate': 0.0001, 'weight_decay': 0.001, 'fits_random_state': 12
 2025-12-17 03:30:05,216 INFO    MainThread:1386 [wandb_run.py:_redirect():2444] Redirects installed.
 2025-12-17 03:30:05,217 INFO    MainThread:1386 [wandb_init.py:init():1080] run started, returning control to user process
 2025-12-17 03:30:05,321 INFO    MainThread:1386 [wandb_watch.py:_watch():68] Watching
+2025-12-17 03:32:48,724 INFO    MainThread:1386 [wandb_run.py:_finish():2270] finishing run yudai22-/Binary_classification_augment/z9b54vzn
+2025-12-17 03:32:48,724 INFO    MainThread:1386 [wandb_run.py:_atexit_cleanup():2469] got exitcode: 0
+2025-12-17 03:32:48,725 INFO    MainThread:1386 [wandb_run.py:_restore():2451] restore
+2025-12-17 03:32:48,725 INFO    MainThread:1386 [wandb_run.py:_restore():2457] restore done
+2025-12-17 03:32:51,970 INFO    MainThread:1386 [wandb_run.py:_footer_sync_info():3853] logging synced files
