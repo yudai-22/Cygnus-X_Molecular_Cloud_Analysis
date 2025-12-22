@@ -1,3 +1,4 @@
+*.png
 *.fits
 *.ipynb_checkpoints
 **/data/zroing_resize_data
@@ -5,5 +6,7 @@
 **/pets
 **/save_dir
 **/latent_list
+**/wandb
+fits/
 artifacts/
 __pycache__
