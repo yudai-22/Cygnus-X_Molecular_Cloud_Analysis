@@ -60,7 +60,7 @@ def train_model(model, criterion, optimizer, num_epochs, args, device, run,
     val_data = torch.from_numpy(val_data).float()
     val_labels = torch.from_numpy(val_labels).float()
 
-    train_data, tarin_labels = augment_data(train_data, tarin_labels, augment_horizontal, augment_vertical, augment_velocity_axis)
+    train_data, train_labels = augment_data(train_data, train_labels, augment_horizontal, augment_vertical, augment_velocity_axis)
     # train_labels     = [0] * len(train_data)
 
     train_dataset    = DataSet(train_data, train_labels)

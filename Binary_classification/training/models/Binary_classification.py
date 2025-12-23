@@ -84,9 +84,9 @@ class Binary_classification_Dropout(nn.Module):
             nn.Flatten(),
             nn.Linear(FINAL_FLATTEN_SIZE, latent),
             nn.ReLU(True), 
-            nn.Linear(latent, 1),
+            nn.Linear(latent, 1), 
             nn.Sigmoid(),
-            nn.Dropout(0.5)
+            nn.Dropout(0.5),
         )
 
     # def forward(self, x):

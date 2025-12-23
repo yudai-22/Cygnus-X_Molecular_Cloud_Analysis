@@ -50,8 +50,8 @@ def parse_args():
     parser.add_argument("--latent_num", type=int, default=100)
     
     # Augmentation
-    parser.add_argument("--augment_horizontal", type=bool, default=True)
-    parser.add_argument("--augment_vertical", type=bool, default=True)
+    parser.add_argument("--augment_horizontal", type=bool, default=False)
+    parser.add_argument("--augment_vertical", type=bool, default=False)
     parser.add_argument("--augment_velocity_axis", type=bool, default=False)
     
     # option
@@ -86,6 +86,7 @@ def main(args):
         --wandb_project FUGIN_cloud \
         --wandb_name Cygnus_CAE_120 \
     """
+
     torch.manual_seed(args.random_state)
     torch.backends.cudnn.benchmark = True
     ImageFile.LOAD_TRUNCATED_IMAGES = True
